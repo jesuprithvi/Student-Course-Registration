@@ -1,0 +1,442 @@
+﻿body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, textarea, p, blockquote
+{
+    padding: 0;
+    margin: 0;
+}
+
+body
+{
+    background-color:rgb(237,237,237);
+    font-family:Arial,Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+
+.wrapper 
+{
+/*    width:1500px;*/
+    margin:auto;
+    
+}
+
+.content 
+{
+    width:100%;
+    background-color:rgb(254,254,254);
+ /*   border:1px solid rgb(224,224,224);*/
+    border-radius:5px 5px 5px 5px;
+    float:left;
+    margin-top:8px;
+    margin-bottom:8px;
+    min-height:400px;
+}
+
+.menu 
+{
+    
+    width:100%;
+    margin:0px 0px 0px;
+    padding:0px;
+    height:40px;
+    border-radius:5px 5px 5px 5px;
+    
+}
+
+.navigation_first_item 
+{
+    border-left:0px;
+    border-radius:5px 0 0 5px;
+}
+
+.navitem_s 
+{
+    float:left;
+    border-right:1px solid rgb(10,85,125);
+    border-left:1px solid rgb(67,153,200);
+    height:40px;
+    background-color:rgb(14,79,114);
+}
+
+.menu ul 
+{
+
+}
+
+ .menu ul li 
+ {
+      float:left;
+      display:block;
+      list-style:none;
+      border-right:1px solid rgb(10,85,125);
+      border-left:1px solid rgb(67,153,200);
+}
+
+.menu ul li.navigation_first_item:hover
+{
+     border-radius:5px 0px 0px 5px;
+}
+
+.menu ul li a
+{
+     font-size:13px;
+     font-weight:bold;
+     line-height:40px;
+     padding:8px 20px;
+     color:rgb(255,255,255);
+     text-decoration:none;
+}
+
+.menu ul li:hover
+{
+    background-color:rgb(14,79,114);
+    border-right:1px solid rgb(14,89,130);
+}
+
+.clear 
+{
+    clear:both;
+
+}
+
+.footer
+{
+    height:50px;
+    text-align:center;
+    background-color:rgb(10,110,178);
+    color:rgb(255,255,255);
+    border-radius:5px 5px 5px 5px;
+}
+
+.footer h2 
+{
+    padding:15px;
+    text-align:center;
+}
+
+.ba
+{
+    background-color:mediumseagreen;
+}
+
+.h1{
+    background-color:deepskyblue;
+}
+
+.h2{
+    color:deepskyblue;
+}
+
+.images12 {
+    background-image: url('https://media.istockphoto.com/id/1023819892/photo/underwater-world-with-school-fish-swim-above-a-coral-reef-and-sun-light.jpg?s=612x612&w=0&k=20&c=PAnPv7Eww_NDIuhiKoWky3tBVRyEcjHxy8VR9wPmu3o=');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position-y:center;
+}
+
+.heading {
+    color:black;
+}
+
+.course_name_button
+{
+    font-size:16px;
+    background-color:black;
+    color:goldenrod;
+    text-align:center;
+    cursor:pointer;
+    margin-left:180px;
+    margin-top:110px;
+    
+}
+
+
+.button {
+    background-color: royalblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-top:100px;
+    margin-left:100px;
+}
+
+.course_back_color
+
+{
+    background-color:royalblue;
+}
+
+.cbutton
+{
+    margin-left:500px;
+    margin-top:100px;
+}
+.sqlbutton
+{
+    margin-right:500px;
+    
+}
+
+.combobox
+{
+    text-align:right;
+
+}
+.c_color
+{
+    box-sizing:border-box;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.default
+{
+    text-align:center;
+    width:80%;
+    margin:auto;
+}
+
+.pdf
+{
+    width:40px;
+    height:40px;
+    display:inline-block;
+}
+
+
+.popup_wrapper_delete {
+    position: absolute;
+    top: 0px;
+    bottom: 20px !important;
+    left: 0px;
+    /* background: url(../Images/background_trans_new.png);*/
+    width: 40% !important;
+    z-index: 1000000 !important;
+    /*height: 700px;*/ height: 50px;
+}
+
+
+
+.cartageposearchmaxhghtPopup_delete {
+    height: 100px !important;
+    z-index: 5 !important;
+}
+.popup_form2 {
+    margin: 10% auto;
+    width: 400px;
+    padding: 20px;
+    background: #f6f6f6;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.dvpopupwidAddPO {
+    margin: 10% auto !important;
+    width: 90%;
+    height: 62%;
+    background: #f6f6f6 !important;
+    border: 1px solid #f6f6f6;
+    border-radius: 20px !important;
+}
+.pagetitle {
+    font-weight: bold; /*color: #296dad;*/
+    margin-right: 0px;
+    text-align: center;
+    font-size: 20px;
+    /*font-family: Tahoma;*/
+    margin-top: 13px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 13px;
+    background-color:dimgrey;
+    color:white;
+}
+
+.newpgtitle {
+    padding-bottom: 5px !important;
+    margin-top: 0px !important;
+    font-size: 16px !important;
+}
+
+.tblMain {
+    width: 100%;
+}
+
+.dvPOCOmments {
+    height: 87px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.align_center {
+    text-align: center;
+}
+
+.PaddingTop15px {
+    padding-top: 15px;
+}
+
+.form_btn {
+    cursor: pointer;
+}
+
+.tbl_align {
+    text-align: right;
+}
+
+.stu_id
+{
+    text-align:center;
+}
+
+.panel_color {
+    background-color: cadetblue;
+    width:100%;
+}
+
+.c
+{
+    font:bold;
+    background-color:cadetblue;
+}
+
+.form {
+    background-color: cadetblue;
+    text-align: center;
+    width: 100%;
+    margin-left: -50px;
+}
+
+.label {
+    display: inline-block;
+    text-align: right;
+    clear: left;
+    width: 150px;
+    text-align: right;
+}
+.mar
+{
+    border-left:30px;
+}
+
+.btnIcon {
+    /*margin: 10px 10px 0px;*/ /*margin: 5px 5px 0px;*/
+    padding-left: -2em;
+    height: 30px;
+    display: inline-block;
+}
+
+.pUpdPListClass {
+    z-index: 10000000;
+    position: absolute;
+    margin-right: auto;
+    margin-left: auto;
+    /*margin-top: auto;*/
+    left: 50%; /*680px; */
+    top: 300px;
+    width: 25px;
+    height: 25px;
+    /*background-color: Red;*/
+}
+
+.pnlimageformat {
+    width: 30px;
+    height: 30px;
+}
+.align
+{
+    text-align:right;
+    margin-right:auto;
+}
+
+.divradgrid {
+    width: 98%;
+    margin: 0px auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.textarea {
+    border: 2px solid #ccc;
+    padding: 10px;
+    vertical-align: top;
+    width: 25%;
+    resize: none;
+}
+
+.popup_new {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: 1;
+/*    background: url(../Images/background_trans_new.png);*/
+    background-image: url('../Images/background_trans_new.png');
+}
+
+.centerised {
+    margin: 0px auto;
+}
+
+
+.tbl-basic > tbody > tr > td + td {
+    padding-left: 15px;
+}
+
+.panel_color2 {
+    padding: 10px;
+    background: #5f9ea0;
+}
+
+.pb-15 {
+    padding-bottom: 15px;
+
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+
+.popup_wrapper {
+    position: absolute;
+    top: 0px;
+    bottom: 20px !important;
+    left: 0px;
+    /* background: url(../Images/background_trans_new.png);*/
+    background-image: url('../Images/background_trans_new.png');
+    width: 100% !important;
+    z-index: 1000000 !important;
+    /*height: 700px;*/ height: 850px;
+}
+
+
+.cartageposearchmaxhghtPopup {
+    height: 1014px !important;
+    z-index: 5 !important;
+}
+
+.popup_0107{
+    width:400px;
+    height:1000px;
+}
+
+.lblarts1{
+    margin-left:1000px;
+}

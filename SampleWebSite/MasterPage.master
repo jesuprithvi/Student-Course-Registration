@@ -1,0 +1,33 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link href="Styles/TelerikStyles.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="ba">
+            <div class="menu">
+                <ul>
+                    <li><a href="Default.aspx">Home</a></li>
+                    <li><a href="Courses.aspx">Courses</a></li>
+                </ul>
+            </div>
+            <div class="clear"></div>
+            <div class="content">
+                <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+            <div></div>
+            <div>
+                <h2></h2>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
